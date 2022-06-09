@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="responsive">
+    <div>
+        <form action="" id="myForm" >
+          <label for="date" class="date_label">Year *</label> <br>
+          <input type="text" name="year" id="year" placeholder="input Year" class="year_input" required><br>
+          <p id="error_yr" class="error_yr"></p>
+          <button type="submit" class="btn" id="btn">
+              <strong>Submit</strong>
+          </button>
+        </form>
+      </div>
+  
+     
+</section>
+
+<section>
+    <!-- success modal -->
+    <!-- Trigger/Open The Modal -->
+<button id="myBtn" style="display: none;">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content" id="content">
+    <span class="close">&times;</span>
+    <p id="modal_text">form submit success</p>
+  </div>
+
+</div>
+</section>
+
+<script src="./app.js"></script>
+</body>
+</html>
